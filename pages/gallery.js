@@ -5,7 +5,7 @@ export default function Gallery() {
     const images = ['/GO/GO1.jpg','/GO/GO2.jpg'];
     const GlenOaks = [
         { name: "/GO/GO1.jpg", w: "500px" , h: "640px"},
-        { name: "/GO/GO2.JPG", w: "512px" , h: "640px" },
+        { name: "/GO/GO2.jpg", w: "512px" , h: "640px" },
       ];
 
     const Onwenstia = [
