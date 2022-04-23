@@ -8,7 +8,7 @@ const Navbar = () => {
             <div className="logo">
                 <h1>
                     <img src="/ablogo.jpg" alt="ABlogo" className="logo1" />
-                    {' '} AB Merchandising
+                    {' '} AB MERCHANDISING
                 </h1>
                 <style jsx>{`
                 .logo1 {

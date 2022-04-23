@@ -11,6 +11,9 @@ export default function Testimonials() {
                 <title>AB Merchandising</title>
                 <link rel="icon" href="/favicon.ico" />
             </Head>
+            <div style={{textAlign:"center"}}>
+            <h1>Testimonials</h1>
+            </div>
             {testimonials.map((q) => (
                 <Testimonial quote={q}/>
             ))}

@@ -14,12 +14,12 @@ export default function Gallery() {
         { name: "/ONW/ONW3.jpg", w: "640px" , h: "600px"},
         { name: "/ONW/ONW4.jpg", w: "480px" , h: "640px"},
         { name: "/ONW/ONW5.jpg", w: "480px" , h: "640px"},
-        { name: "/ONW/ONW6.jpeg", w: "480px" , h: "640px"},
+        //{ name: "/ONW/ONW6.jpeg", w: "480px" , h: "640px"},
       ];
 
       const StrawberryCreek = [
-        { name: "/SC/SC1.jpg", w: "480px" , h: "640px"},
-        { name: "/SC/SC2.jpg", w: "480px" , h: "640px"},
+        //{ name: "/SC/SC1.jpg", w: "480px" , h: "640px"},
+        //{ name: "/SC/SC2.jpg", w: "480px" , h: "640px"},
         { name: "/SC/SC3.jpg", w: "480px" , h: "640px"},
         { name: "/SC/SC4.jpg", w: "480px" , h: "640px"},
         { name: "/SC/SC5.jpg", w: "480px" , h: "640px"},
@@ -48,6 +48,9 @@ export default function Gallery() {
                 <title>AB Merchandising</title>
                 <link rel="icon" href="/favicon.ico" />
             </Head>
+            <div style={{textAlign:"center"}}>
+            <h1>Gallery</h1>
+            </div>
             
             <GalleryDisplay imgs = {StrawberryCreek} clubName="Strawberry Creek" clubLoc="Kenosha, WI"/>
 

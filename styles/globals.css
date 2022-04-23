@@ -1,9 +1,10 @@
 @import url('https://fonts.googleapis.com/css2?family=Nunito:wght@300;400;600;700&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Roboto:wght@300&display=swap');
 
 body {
   background: #ffffff;
   color: #333;
-  font-family: "Nunito";
+  font-family: "Roboto";
 }
 a {
   color: #333;
@@ -40,9 +41,7 @@ main {
 }
 
 .top-box {
-  /*
-  color: rgb(223, 16, 16);
-  */
+  color: rgba(128,0,0,255);
   margin: 0;
   padding: 0;
   
@@ -71,7 +70,8 @@ main {
 }
 
 .item {
-  width: 50%; 
+  width: 45%; 
+  padding: 2% 2%
 }
 
 .about {

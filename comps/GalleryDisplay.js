@@ -6,8 +6,6 @@ const GalleryDisplay = (props) => {
 
     return(
         <div style={{textAlign:"center"}}>
-            <h1><u>{props.clubName}</u></h1>
-            <h3>{props.clubLoc}</h3>
             <div style={{
                 display: "flex",
                 flexWrap: "wrap",

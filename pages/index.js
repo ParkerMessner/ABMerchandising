@@ -20,8 +20,8 @@ export default function Home() {
           }}
         > 
         <Image className='homeImage'
-            src='/SC/SC1.jpg'
-            width='480px'
+            src='/ONW/ONW1.jpg'
+            width='512px'
             height='640px'
         />
         </div>
