@@ -16,7 +16,7 @@ const GalleryDisplay = (props) => {
                 >        
 
                 {props.imgs.map((img) => (
-                    <div class="item">
+                    <div className="item">
                         <Image className='display'
                             src={img.name}
                             width={img.w}

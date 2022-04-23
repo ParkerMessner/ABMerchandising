@@ -14,7 +14,10 @@ export default function Gallery() {
         { name: "/ONW/ONW3.jpg", w: "640px" , h: "600px"},
         { name: "/ONW/ONW4.jpg", w: "480px" , h: "640px"},
         { name: "/ONW/ONW5.jpg", w: "480px" , h: "640px"},
-        //{ name: "/ONW/ONW6.jpeg", w: "480px" , h: "640px"},
+        { name: "/ONW/ONW6.jpeg", w: "3024px" , h: "4032px"},
+        { name: "/ONW/ONW7.jpeg", w: "2612px" , h: "3679px"},
+        { name: "/ONW/ONW8.jpeg", w: "3023px" , h: "3600px"},
+
       ];
 
       const StrawberryCreek = [
@@ -30,6 +33,7 @@ export default function Gallery() {
         { name: "/SC/SC10.jpg", w: "480px" , h: "640px"},
         { name: "/SC/SC11.jpg", w: "480px" , h: "640px"},
         { name: "/SC/SC12.jpg", w: "492px" , h: "640px"},
+        { name: "/SC/SC13.jpeg", w: "2866px" , h: "3521px"},
       ];
 
       const ShoreAcres = [
@@ -59,6 +63,7 @@ export default function Gallery() {
             <GalleryDisplay imgs = {ShoreAcres} clubName="Shore Acres" clubLoc="Lake Bluff, IL"/>
 
             <GalleryDisplay imgs = {GlenOaks} clubName="Glen Oak" clubLoc="Glen Ellyn, IL"/>
+
         </div>
     );
 }
