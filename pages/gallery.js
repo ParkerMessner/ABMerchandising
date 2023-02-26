@@ -6,8 +6,8 @@ export default function Gallery() {
     const GlenOaks = [
         //{ name: "/GO/GO1.jpg", w: "500px" , h: "640px"},
         //{ name: "/GO/GO2.jpg", w: "512px" , h: "640px" },
-        { name: "/GO/GO3.jpg", w: "480px" , h: "640px" },
-        { name: "/GO/GO5.jpg", w: "489px" , h: "640px" },
+        { name: "/GO/GO_3.jpg", w: "480px" , h: "640px" },
+        { name: "/GO/GO_5.jpg", w: "489px" , h: "640px" },
         
       ];
 
@@ -24,9 +24,9 @@ export default function Gallery() {
       ];
     
     const SunsetRidge = [//Put at the top of the gallery
-        { name: "/SR/SR1.jpg", w: "480px" , h: "640px"},
-        { name: "/SR/SR3.jpg", w: "509px" , h: "640px"},
-        { name: "/SR/SR4.jpg", w: "480px" , h: "640px"},
+        { name: "/SR/SR_1.jpg", w: "480px" , h: "640px"},
+        { name: "/SR/SR_3.jpg", w: "509px" , h: "640px"},
+        { name: "/SR/SR_4.jpg", w: "480px" , h: "640px"},
  
       ];
 
