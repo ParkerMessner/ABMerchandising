@@ -30,7 +30,7 @@ export default function Gallery() {
  
       ];
 
-      const StrawberryCreek = [
+    const StrawberryCreek = [
         //{ name: "/SC/SC1.jpg", w: "480px" , h: "640px"},
         //{ name: "/SC/SC2.jpg", w: "480px" , h: "640px"},
         { name: "/SC/SC3.jpg", w: "480px" , h: "640px"},
@@ -46,7 +46,7 @@ export default function Gallery() {
         { name: "/SC/SC13.jpeg", w: "2866px" , h: "3521px"},
       ];
 
-      const ShoreAcres = [
+    const ShoreAcres = [
         { name: "/SA/SA1.jpg", w: "1512px" , h: "2016px"},
         { name: "/SA/SA2.jpg", w: "1512px" , h: "2016px"},
         { name: "/SA/SA3.jpg", w: "1512px" , h: "2016px"},
@@ -55,6 +55,17 @@ export default function Gallery() {
         { name: "/SA/SA6.jpg", w: "1512px" , h: "2016px"},
         
       ];
+
+    const IceHouse = [
+        { name: "/IH/IH1.jpg", w: "480px" , h: "640px"},
+        { name: "/IH/IH2.jpg", w: "492px" , h: "640px"},
+        { name: "/IH/IH3.jpg", w: "480px" , h: "640px"},
+        { name: "/IH/IH4.jpg", w: "496px" , h: "640px"},
+        { name: "/IH/IH5.jpg", w: "480px" , h: "640px"},
+        { name: "/IH/IH6.jpg", w: "640px" , h: "603px"},
+        { name: "/IH/IH7.jpg", w: "461px" , h: "640px"},
+        { name: "/IH/IH8.jpg", w: "640px" , h: "498px"},
+      ]
 
     return (
         <div className="container">
@@ -65,6 +76,8 @@ export default function Gallery() {
             <div style={{textAlign:"center"}}>
             <h1>Gallery</h1>
             </div>
+
+            <GalleryDisplay imgs = {IceHouse} clubName="Olympia Fields Country Club" clubLoc="Olympia Fields"/>
 
             <GalleryDisplay imgs = {SunsetRidge} clubName="Sunset Ridge" clubLoc="Northfield, IL"/>
                 
