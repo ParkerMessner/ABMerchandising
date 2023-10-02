@@ -1,2 +1,3 @@
 Activate conda env: next-env
-next build
+npm run build
+npm run start

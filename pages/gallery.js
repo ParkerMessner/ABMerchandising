@@ -77,7 +77,15 @@ export default function Gallery() {
             <h1>Gallery</h1>
             </div>
 
+            <div style={{textAlign:"center"}}>
+            <h3>Icehouse Specialty Shop, 2023 BMW Championship, Olympia Fields Country Club</h3>
+            </div>
+
             <GalleryDisplay imgs = {IceHouse} clubName="Olympia Fields Country Club" clubLoc="Olympia Fields"/>
+
+            <div style={{textAlign:"center"}}>
+            <h3>Chicagoland North Shore Golf Shops</h3>
+            </div>
 
             <GalleryDisplay imgs = {SunsetRidge} clubName="Sunset Ridge" clubLoc="Northfield, IL"/>
                 
