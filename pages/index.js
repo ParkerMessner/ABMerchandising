@@ -12,6 +12,8 @@ export default function Home() {
         <h1 className="title">
           Welcome to AB Merchandising
         </h1>
+
+        <h2 align="center" color="#000435">Create. Every. Day.</h2> {/*TODO: Make this bigger and navy blue. Remove it from the footer on just this page */}
         
         <div style={{
           padding: "20px",
@@ -20,11 +22,13 @@ export default function Home() {
           }}
         > 
         <Image className='homeImage'
-            src='/ONW/ONW1.jpg'
-            width='512px'
-            height='640px'
+            src='/Masters/Masters5.jpg'
+            width='640px'
+            height='420px'
         />
         </div>
+
+        <h3 align="center">The 2024 Masters Tournament</h3>
 
       </div>
         

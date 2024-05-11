@@ -6,9 +6,18 @@ const Layout = ({children}) => {
         <div className="content">
             <Navbar/>
             {children}
-            <footer>Powered by Parker</footer>
+            <footer><h1 className="foot">Create. Every. Day.</h1></footer>
+            <style jsx>{`
+        .foot {
+            color: #000435;
+            }
+        `}</style>
         </div>
+        
     );
 }
 
 export default Layout
+
+
+//#000435
