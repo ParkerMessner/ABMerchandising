@@ -11,6 +11,7 @@ export default function Contact() {
             <h3>Lake Forest, IL</h3>
             <h3>Email: info@aimeebernardi.com</h3>
             <h3>Instagram: @abmerch2</h3>
+            <h3>LinkedIn: Aimee Messner</h3>
         </div>
     );
 }

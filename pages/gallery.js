@@ -8,6 +8,8 @@ export default function Gallery() {
         //{ name: "/GO/GO2.jpg", w: "512px" , h: "640px" },
         { name: "/GO/GO_3.jpg", w: "480px" , h: "640px" },
         { name: "/GO/GO_5.jpg", w: "489px" , h: "640px" },
+        { name: "/GO/GO6.jpg", w: "523px" , h: "640px" },
+        { name: "/GO/GO7.jpg", w: "480px" , h: "640px" },
         
       ];
 
@@ -20,6 +22,8 @@ export default function Gallery() {
         { name: "/ONW/ONW6.jpeg", w: "3024px" , h: "4032px"},
         { name: "/ONW/ONW7.jpeg", w: "2612px" , h: "3679px"},
         { name: "/ONW/ONW8.jpeg", w: "3023px" , h: "3600px"},
+        { name: "/ONW/ONW9.jpg", w: "549px" , h: "640px"},
+
 
       ];
     
@@ -37,8 +41,8 @@ export default function Gallery() {
         //{ name: "/SC/SC4.jpg", w: "480px" , h: "640px"}, Gfore
         //{ name: "/SC/SC5.jpg", w: "480px" , h: "640px"}, Mistletoe
         { name: "/SC/SC6.jpg", w: "480px" , h: "640px"},
-        { name: "/SC/SC7.jpg", w: "480px" , h: "640px"},
-        { name: "/SC/SC8.jpg", w: "552px" , h: "640px"},
+        //{ name: "/SC/SC7.jpg", w: "480px" , h: "640px"},
+        //{ name: "/SC/SC8.jpg", w: "552px" , h: "640px"},
         //{ name: "/SC/SC9.jpg", w: "480px" , h: "640px"}, Bears and sign in middle
         { name: "/SC/SC10.jpg", w: "480px" , h: "640px"},
         { name: "/SC/SC11.jpg", w: "480px" , h: "640px"},
@@ -65,7 +69,23 @@ export default function Gallery() {
         { name: "/IH/IH6.jpg", w: "640px" , h: "603px"},
         { name: "/IH/IH7.jpg", w: "461px" , h: "640px"},
         { name: "/IH/IH8.jpg", w: "640px" , h: "498px"},
-      ]
+      ];
+
+      const Ridgemoor = [
+        { name: "/RM/RM1.jpg", w: "478px" , h: "640px"},
+        { name: "/RM/RM2.jpg", w: "436px" , h: "640px"},
+        { name: "/RM/RM3.jpg", w: "640px" , h: "520px"},
+      ];
+
+      const Inverness = [
+        { name: "/IV/IV1.jpg", w: "640px" , h: "505px"},
+        { name: "/IV/IV2.jpg", w: "529px" , h: "640px"},
+        { name: "/IV/IV3.jpg", w: "580px" , h: "640px"},
+        { name: "/IV/IV4.jpg", w: "640px" , h: "480px"},
+
+      ];
+
+
 
     return (
         <div className="container">
@@ -87,15 +107,19 @@ export default function Gallery() {
             <h3>Chicagoland North Shore Golf Shops</h3>
             </div>
 
+            <GalleryDisplay imgs = {Onwenstia} clubName="Onwentsia" clubLoc="Lake Forest, IL"/>
+
             <GalleryDisplay imgs = {SunsetRidge} clubName="Sunset Ridge" clubLoc="Northfield, IL"/>
                 
             <GalleryDisplay imgs = {GlenOaks} clubName="Glen Oak" clubLoc="Glen Ellyn, IL"/>
+
+            <GalleryDisplay imgs = {Ridgemoor} clubName="Ridgemoor" clubLoc="Harwood Heights, IL"/>
+
+            <GalleryDisplay imgs = {Inverness} clubName="Inverness" clubLoc="Inverness, IL"/>
             
-            <GalleryDisplay imgs = {StrawberryCreek} clubName="Strawberry Creek" clubLoc="Kenosha, WI"/>
-
-            <GalleryDisplay imgs = {Onwenstia} clubName="Onwentsia" clubLoc="Lake Forest, IL"/>
-
             <GalleryDisplay imgs = {ShoreAcres} clubName="Shore Acres" clubLoc="Lake Bluff, IL"/>
+
+            <GalleryDisplay imgs = {StrawberryCreek} clubName="Strawberry Creek" clubLoc="Kenosha, WI"/>
     
 
         </div>
