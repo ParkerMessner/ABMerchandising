@@ -6,12 +6,13 @@ const Layout = ({children}) => {
         <div className="content">
             <Navbar/>
             {children}
-            <footer><h1 className="foot">Create. Every. Day.</h1></footer>
+            
+            {/* <footer><h1 className="foot">Create. Every. Day.</h1></footer>
             <style jsx>{`
         .foot {
             color: #000435;
             }
-        `}</style>
+        `}</style> */}
         </div>
         
     );
