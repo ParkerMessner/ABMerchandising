@@ -22,7 +22,7 @@ export default function About() {
 
                 <p><b>MERCHANDISING</b>: Rework displays to provide an exceptional shopping experience for your members and their guests.</p>
 
-                <p><b>TOURNAMENT/OUTING ASSISTANCE</b>: Serve as a liaison with vendors for tournament and outing prizes and gifts.</p>
+                <p><b>TOURNAMENT/OUTING/CORPORATE GIFTING</b>: Serve as a liaison with vendors for tournament and outing prizes and gifts.</p>
 
                 <p><b>CUSTOMER SERVICE TRAINING</b>: Provide training on the various lines carried in your shop. Can train your staff on merchandising methods, as well.</p>
 

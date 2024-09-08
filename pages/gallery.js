@@ -85,6 +85,13 @@ export default function Gallery() {
 
       ];
 
+      const BMW_2024 = [
+        { name: "/BMW_2024/BMW_2024_2.jpg", w: "480px" , h: "640px"},
+        { name: "/BMW_2024/BMW_2024_5.jpg", w: "480px" , h: "640px"},
+        { name: "/BMW_2024/BMW_2024_4.jpg", w: "480px" , h: "640px"},
+        { name: "/BMW_2024/BMW_2024_3.jpg", w: "480px" , h: "640px"},
+      ]
+
 
 
     return (
@@ -96,6 +103,13 @@ export default function Gallery() {
             <div style={{textAlign:"center"}}>
             <h1>Gallery</h1>
             </div>
+
+            <div style={{textAlign:"center"}}>
+            <h3>Après Golf Shop, 2024 BMW Championship, Castle Pines Golf Club</h3>
+            </div>
+
+            <GalleryDisplay imgs = {BMW_2024} clubName="Castle Pines Golf Club" clubLoc="Castle Rock, Colorado"/>
+
 
             <div style={{textAlign:"center"}}>
             <h3>Icehouse Specialty Shop, 2023 BMW Championship, Olympia Fields Country Club</h3>

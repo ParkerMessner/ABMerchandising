@@ -22,13 +22,14 @@ export default function Home() {
           }}
         > 
         <Image className='homeImage'
-            src='/Masters/Masters5.jpg'
-            width='640px'
-            height='420px'
+            src='/BMW_2024/BMW_2024_1.jpg'
+            width='480px'
+            height='640px'
         />
         </div>
 
-        <h3 align="center">The 2024 Masters Tournament</h3>
+        <h3 align="center">2024 BMW Championship</h3>
+        <h3 align="center">Après Golf Shop, Castle Pines Golf Club</h3>
 
       </div>
         
