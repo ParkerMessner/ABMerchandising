@@ -9,7 +9,7 @@ export default function About() {
             <div className="about" style={{textAlign:"left"}}>
 
                 <p>My photographic eye and merchandising creativity, combined with exemplary customer service and sales expertise, translate to a skill set that will help build revenue for your shop. In 2.5 years at a private North Shore club, I recently contributed to annual sales growth of more than 20% via bringing in seven new lines and countless
-                    accessories. Currently, I work with four private North Shore golf shops and recently designed and merchandised the Icehouse Specialty Shop at the 2023 BMW Championship. I want to help you build your shop and your sales to meet the needs of your members. A superior shopping experience for everyone who walks through your door is my steadfast goal.
+                    accessories. Currently, I work with six North Shore golf shops and recently I supervised the Après Golf Shop at the 2024 BMW Championship (Castle Pines) and designed and merchandised the Icehouse Specialty Shop at the 2023 BMW Championship. I want to help you build your shop and your sales to meet the needs of your members. A superior shopping experience for everyone who walks through your door is my steadfast goal.
                 </p>
 
                 <p>AB Merchandising seeks to make your job as a Golf Professional simpler by allowing you more time to focus on meeting the golf needs of your members. Offering a la carte services, you are able to choose which services best fit your needs throughout the season. </p>
