@@ -14,15 +14,21 @@ export default function Gallery() {
       ];
 
     const Onwenstia = [
-        { name: "/ONW/ONW1.jpg", w: "512px" , h: "640px"},
-        { name: "/ONW/ONW2.jpg", w: "512px" , h: "640px"},
+        // { name: "/ONW/ONW1.jpg", w: "512px" , h: "640px"},
+        // { name: "/ONW/ONW2.jpg", w: "512px" , h: "640px"},
         //{ name: "/ONW/ONW3.jpg", w: "640px" , h: "600px"}, Yeti
         //{ name: "/ONW/ONW4.jpg", w: "480px" , h: "640px"}, Dresser and racks
-        { name: "/ONW/ONW5.jpg", w: "480px" , h: "640px"},
-        { name: "/ONW/ONW6.jpeg", w: "3024px" , h: "4032px"},
-        { name: "/ONW/ONW7.jpeg", w: "2612px" , h: "3679px"},
-        { name: "/ONW/ONW8.jpeg", w: "3023px" , h: "3600px"},
-        { name: "/ONW/ONW9.jpg", w: "549px" , h: "640px"},
+        // { name: "/ONW/ONW5.jpg", w: "480px" , h: "640px"},
+        // { name: "/ONW/ONW6.jpeg", w: "3024px" , h: "4032px"},
+        // { name: "/ONW/ONW7.jpeg", w: "2612px" , h: "3679px"},
+        // { name: "/ONW/ONW8.jpeg", w: "3023px" , h: "3600px"},
+        // { name: "/ONW/ONW9.jpg", w: "549px" , h: "640px"},
+        { name: "/ONW/ONW10.jpg", w: "480px" , h: "640px"},
+        { name: "/ONW/ONW11.jpg", w: "480px" , h: "640px"},
+        { name: "/ONW/ONW12.jpg", w: "480px" , h: "640px"},
+        { name: "/ONW/ONW13.jpg", w: "602px" , h: "640px"},
+        { name: "/ONW/ONW14.jpg", w: "528px" , h: "640px"},
+
 
 
       ];
@@ -92,6 +98,19 @@ export default function Gallery() {
         { name: "/BMW_2024/BMW_2024_3.jpg", w: "480px" , h: "640px"},
       ]
 
+      const Kemper = [
+        { name: "/Kemper/Kemper1.jpg", w: "480px" , h: "640px"},
+        { name: "/Kemper/Kemper2.jpg", w: "480px" , h: "640px"},
+      ]
+
+      const StCharles = [
+        { name: "/StCh/StCh1.jpg", w: "480px" , h: "640px"},
+        { name: "/StCh/StCh2.jpg", w: "480px" , h: "640px"},
+        { name: "/StCh/StCh3.jpg", w: "480px" , h: "640px"},
+      ]
+
+
+
 
 
     return (
@@ -120,6 +139,10 @@ export default function Gallery() {
             <div style={{textAlign:"center"}}>
             <h3>Chicagoland North Shore Golf Shops</h3>
             </div>
+
+            <GalleryDisplay imgs = {Kemper} clubName="Kemper" clubLoc="Kildeer, IL"/>
+
+            <GalleryDisplay imgs = {StCharles} clubName="St. Charles Country Club" clubLoc="St. Charles, IL"/>
 
             <GalleryDisplay imgs = {Onwenstia} clubName="Onwentsia" clubLoc="Lake Forest, IL"/>
 
