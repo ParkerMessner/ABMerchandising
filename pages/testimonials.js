@@ -1,5 +1,7 @@
 import Head from 'next/head'
 import Testimonial from '../comps/Testimonial';
+import Image from 'next/image'
+
 
 var testimonials = ["\"Bringing in Aimee as a partner in our Golf Shop operation has been invaluable.  When our club underwent a renovation, Aimee was able to make display selections and furniture arrangements that took the renovation to another level and made our new space not only enhanced visually, but also functionally. Her expertise has been a great resource for me and my team and has helped us elevate the experience our members receive when they come to our shop.  We will continue to take advantage of our partnership with Aimee to enhance all areas of our retail operation for years to come.\"",
 "\"Aimee has been an absolute godsend in my first year at The Club at Strawberry Creek. Her knowledge, creativity, and keen eye for detail have completely transformed our golf shop. Every request or concept I’ve brought to her, she has taken and elevated beyond expectation — she consistently knocks it out of the park. Aimee not only creates visually engaging and organized displays but also fosters collaboration and excitement within our team. Our staff is genuinely energized when they hear Aimee is coming, as she involves them directly in the merchandising process — from product presentation to training and storytelling. I highly recommend Aimee to any golf professional looking to elevate their shop experience, improve retail performance, and bring a professional polish to their operation. She’s an invaluable partner and a true difference-maker.\"",
@@ -16,7 +18,17 @@ export default function Testimonials() {
                 <link rel="icon" href="/favicon.ico" />
             </Head>
             <div style={{textAlign:"center"}}>
-            <h1>Testimonials</h1>
+                <h1>Testimonials</h1>
+            </div>
+            <div style={{padding: "20px",display: "flex",justifyContent: "center",}}>
+                <Image className='testimonialImage'
+                    src='/Other/MOTY.jpg'
+                    width='640px'
+                    height='542px'
+                />
+            </div>
+            <div style={{textAlign:"center"}}>
+                    <h3>Strawberry Creek was awarded the Wisconsin PGA Merchandiser of the year, Private Club, for 2025</h3>
             </div>
             {testimonials.map((q) => (
                 <Testimonial quote={q}/>
